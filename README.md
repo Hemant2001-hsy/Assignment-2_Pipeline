@@ -1,7 +1,7 @@
 # Assignment-2__pipeline
 Pipeline Verilog code with testbench
 
-Consider a pipeline that carries out the following stage-wise operations:
+# Consider a pipeline that carries out the following stage-wise operations:
 
 Inputs: Three register addresses (rs1, rs2 and rd), an ALU function (func), and a memory address (addr).
 
@@ -13,7 +13,7 @@ Stage 3: Write the value of Z in the register specified by "rd".
 
 Stage 4: Also write the value of Z in memory location "addr".
 
-The Assumptions:
+# The Assumptions:
 There is a register bank containing 16 16-bit registers.
 
 4-bits are required to specify a register address. 2 register reads and 1 register write can be performed every clock cycle.
